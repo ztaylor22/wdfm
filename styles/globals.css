@@ -3,3 +3,108 @@ body {
     margin: 0;
     font-family: "Inter", sans-serif;
 }
+
+#navbar {
+    text-align: center;
+}
+
+#container {
+    max-width: 700px;
+    padding: 16px;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+
+#prof-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+
+}
+
+#top-section{
+    text-align: center;
+    margin: 64px 0;
+}
+
+h1{
+    font-weight: 400;
+}
+
+@media (min-width: 1000px){
+    h1{
+        font-size: 56px;
+        font-weight: 400;
+        line-height: 72px;
+
+    }
+}
+
+#profile-description{
+    text-align: justify;
+}
+
+p{
+    font-size: 24px;
+    line-height: 40px;
+}
+
+p a {
+    color: blue;
+    text-decoration: none;
+}
+
+hr {
+margin: 32px 0;
+}
+
+.project-box {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+    margin-right: 64px;
+    margin-left: 64px;
+}
+
+@media (min-width: 1000px){
+    #horizontal-scroll-elements{
+        margin: 0 auto; 
+        overflow-y: auto;
+        overflow-x: hidden;
+        display: flex;
+        padding: 20px;
+
+    }
+    .project-box {
+        border: 1px solid rgb(0, 0, 0);
+        padding: 20px;
+        border-radius: 16px;
+        margin-bottom: 32px;
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+}
+
+.project-box img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.project-box h2 {
+    font-size: 32px;
+    margin-bottom: 12px;
+    margin-top: 32px;
+}
+
+.project-box p {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 0px;
+    margin-top: 12px;
+}
+
+.BoxLink {
+    color: unset;
+    text-decoration: none;
+}
